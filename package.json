@@ -1,0 +1,12 @@
+{
+  "name": "college-management-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "create-admin": "cd backend && node scripts/createAdmin.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
